@@ -32,7 +32,7 @@ const HeroSection = () => {
           >
             <Sparkles className="w-4 h-4 text-accent" />
             <span className="text-cream/90 text-sm font-medium">
-              Authentic Himalayan Wellness
+              Premium Himalayan Wellness
             </span>
           </motion.div>
 
@@ -43,10 +43,8 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-cream leading-tight mb-6"
           >
-            Unlock Your{" "}
-            <span className="text-gradient-gold">Peak Vitality</span>
-            <br />
-            With Ancient Wisdom
+            Nature's Power,{" "}
+            <span className="text-gradient-gold">Clinically Proven</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -56,8 +54,9 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-cream/80 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed"
           >
-            Experience the power of pure Himalayan Shilajit in delicious gummy form. 
-            Boost energy, enhance stamina, and revitalize your body naturally.
+            Discover our range of Ayurvedic wellness products — from Shilajit Gummies 
+            to Ashwagandha, Hair Care to Night Burner. All clinically tested. 
+            All made in India.
           </motion.p>
 
           {/* CTAs */}
@@ -71,9 +70,9 @@ const HeroSection = () => {
               variant="hero"
               size="xl"
               className="group"
-              onClick={() => document.getElementById("product")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() => document.getElementById("products")?.scrollIntoView({ behavior: "smooth" })}
             >
-              Shop Now
+              Explore Products
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
@@ -94,8 +93,9 @@ const HeroSection = () => {
           >
             {[
               "100% Natural",
-              "Lab Tested",
+              "Clinically Tested",
               "Made in India",
+              "Vegan Friendly",
             ].map((item, index) => (
               <div key={index} className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-accent" />

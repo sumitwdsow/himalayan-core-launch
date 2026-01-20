@@ -16,6 +16,7 @@ const Header = () => {
   }, []);
 
   const navLinks = [
+    { href: "#products", label: "Products" },
     { href: "#benefits", label: "Benefits" },
     { href: "#ingredients", label: "Ingredients" },
     { href: "#why-us", label: "Why Us" },
@@ -70,7 +71,7 @@ const Header = () => {
           <Button
             variant={isScrolled ? "gold" : "hero"}
             size="lg"
-            onClick={() => document.getElementById("product")?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => document.getElementById("products")?.scrollIntoView({ behavior: "smooth" })}
           >
             Shop Now
           </Button>
