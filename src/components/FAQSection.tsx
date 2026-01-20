@@ -14,36 +14,36 @@ const FAQSection = () => {
 
   const faqs = [
     {
+      question: "What products does Himalayan Core offer?",
+      answer: "Himalayan Core offers a complete range of Ayurvedic wellness products including Shilajit Gummies, Hair Gummies, Ashwagandha Gummies, Shilajit Gold Resin, Shilajit Energy Sips, and Night Burner capsules. All products are made with premium Himalayan ingredients and are clinically tested.",
+    },
+    {
       question: "What is Shilajit and why is it beneficial?",
       answer: "Shilajit is a natural mineral-rich substance found in the Himalayan mountains, formed over millions of years from decomposed plant matter. It contains 85+ minerals, fulvic acid, and powerful antioxidants that support energy, stamina, immunity, and overall vitality. It has been used in Ayurvedic medicine for centuries.",
     },
     {
-      question: "How many gummies should I take daily?",
-      answer: "We recommend taking 2 gummies daily, preferably in the morning with or after breakfast. Each serving provides 500mg of pure Himalayan Shilajit for optimal benefits. Consistency is key - take them regularly for best results.",
+      question: "How do I take Himalayan Core products?",
+      answer: "For Gummies: Take 2 gummies daily. For Shilajit Gold Resin: Take a pea-sized amount (250-500mg) with warm milk or water. For Energy Sips: Mix one sachet in water. For Night Burner: Take 2 capsules before bed. Always follow the specific instructions on each product.",
     },
     {
-      question: "Are there any side effects?",
-      answer: "Our Shilajit Gummies are made from 100% natural ingredients and are generally well-tolerated. However, we recommend consulting your healthcare provider before starting any new supplement, especially if you're pregnant, nursing, or have any medical conditions.",
+      question: "Are your products vegetarian/vegan?",
+      answer: "Yes! Most of our products are vegan-friendly. Our gummies are made with plant-based pectin instead of gelatin. Check individual product labels for specific dietary information. We use no animal-derived ingredients in most formulations.",
+    },
+    {
+      question: "Are your products clinically tested?",
+      answer: "Yes, absolutely! Our Shilajit Gummies have undergone a 90-day placebo-controlled clinical study showing 25% improvement in fitness scores and 23% reduction in stress levels. Results were published in the European Journal of Pharmaceutical and Medical Research.",
     },
     {
       question: "How long until I see results?",
-      answer: "Most customers report feeling increased energy within 1-2 weeks of consistent use. For full benefits like improved stamina, immunity, and mental clarity, we recommend using the product for at least 30-60 days.",
-    },
-    {
-      question: "Is your Shilajit lab tested?",
-      answer: "Yes, absolutely! Every batch of our Shilajit undergoes rigorous third-party testing for purity, potency, and heavy metals. We ensure our product meets the highest quality standards and is free from contaminants.",
+      answer: "Results vary by product. For Shilajit Gummies, most customers report increased energy within 1-2 weeks. Hair Gummies show visible results in 90 days. For full benefits, we recommend consistent use for at least 30-60 days.",
     },
     {
       question: "What is your return policy?",
-      answer: "We offer a 30-day money-back guarantee. If you're not completely satisfied with your purchase, simply contact our customer support team for a full refund. We believe in our product and want you to try it risk-free.",
+      answer: "We offer a 30-day money-back guarantee on all products. If you're not completely satisfied with your purchase, contact our customer support team for a full refund. We believe in our products and want you to try them risk-free.",
     },
     {
-      question: "Is this product suitable for vegetarians?",
-      answer: "Yes! Our Shilajit Gummies are made with plant-based pectin instead of gelatin, making them 100% vegetarian-friendly. We use no animal-derived ingredients in our formulation.",
-    },
-    {
-      question: "How should I store the gummies?",
-      answer: "Store the gummies in a cool, dry place away from direct sunlight. Keep the jar tightly closed after each use. There's no need for refrigeration, but avoid exposure to heat or humidity.",
+      question: "Is Himalayan Core Made in India?",
+      answer: "Yes! All Himalayan Core products are proudly made in India using authentic Himalayan ingredients. We are FSSAI certified, GMP certified, and follow strict quality control measures to ensure purity and potency.",
     },
   ];
 
@@ -65,7 +65,7 @@ const FAQSection = () => {
               Frequently Asked Questions
             </h2>
             <p className="text-muted-foreground text-lg">
-              Find answers to common questions about our Shilajit Gummies.
+              Find answers to common questions about Himalayan Core products.
             </p>
           </motion.div>
 
